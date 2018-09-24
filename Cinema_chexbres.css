@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+body{ background-color: #FFFFFF; }
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+li a{
+	text-decoration: none;
+	color: black;
+  }
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+.foobar{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease; /* Transition de type ease */ 
+}
+
+.foobar:hover{
+    transform: translateX(200px); /* On déplace l'objet */
+    margin-left: 100px;
+}
